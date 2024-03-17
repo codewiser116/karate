@@ -1,0 +1,734 @@
+14:55:06.437 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+14:55:06.888 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+14:55:07.948 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/createTag/createTag.feature:4
+* url tag_url
+js failed:
+>>>>
+01: tag_url
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "tag_url" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/createTag/createTag.feature:4
+14:55:08.817 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/createTag/createTag.feature
+14:56:03.822 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+14:56:04.206 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683316564198
+14:56:04.231 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+14:56:05.268 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/createTag/createTag.feature:4
+* url tag_url
+js failed:
+>>>>
+01: tag_url
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "tag_url" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/createTag/createTag.feature:4
+14:56:06.080 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/createTag/createTag.feature
+14:56:20.926 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+14:56:21.315 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683316581299
+14:56:21.340 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+14:56:22.303 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/createTag/createTag.feature:5
+* path create_tag_uri
+js failed:
+>>>>
+01: create_tag_uri
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "create_tag_uri" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/createTag/createTag.feature:5
+14:56:23.150 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/createTag/createTag.feature
+14:58:45.932 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+14:58:46.361 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683316726352
+14:58:46.393 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+14:58:47.760 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://cashwise.in/api/myaccount/tags
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 15
+1 > Host: cashwise.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"user_id":213}
+
+14:58:48.265 [main]  DEBUG com.intuit.karate - response time in milliseconds: 498
+1 < 403
+1 < Date: Fri, 05 May 2023 19:58:48 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 146
+1 < Connection: keep-alive
+1 < X-Seen-By: pmHZlB45NPy7b1VBAukQrewfbs+7qUVAqsIx00yI78k=,sHU62EDOGnH2FBkJkG/Wx8EeXWsWdHrhlvbxtlynkVj82lJLk7JFiMDmOX9wqRwy,m0j2EEknGIVUW/liY8BLLqymrWSBpMfJbY0ZWU2hO35/HubKAh1QhTB6OuUXtTGV
+1 < X-Wix-Request-Id: 1683316728.3101568495558119801
+1 < X-Content-Type-Options: nosniff
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+14:58:48.305 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/createTag/createTag.feature:15
+Then status 200
+status code was: 403, expected: 200, response time in milliseconds: 498, url: https://cashwise.in/api/myaccount/tags, response: 
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+src/test/java/karateFramework/createTag/createTag.feature:15
+14:58:49.055 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/createTag/createTag.feature
+15:25:45.681 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+15:25:46.080 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683318346071
+15:25:46.107 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+15:25:47.401 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://cashwise.in/api/myaccount/tags/123
+1 > Host: cashwise.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:25:48.080 [main]  DEBUG com.intuit.karate - request:
+2 > GET https://cashwise.in/api/myaccount/tags/123
+2 > Host: www.cashwise.in
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/19.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+15:25:48.430 [main]  DEBUG com.intuit.karate - response time in milliseconds: 340
+2 < 403
+2 < Content-Length: 134
+2 < Content-Type: text/html; charset=UTF-8
+2 < Date: Fri, 05 May 2023 20:25:48 GMT
+2 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+<!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title>403 Forbidden
+
+15:25:48.472 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getTag/getTag.feature:14
+Then status 200
+status code was: 403, expected: 200, response time in milliseconds: 340, url: https://cashwise.in/api/myaccount/tags/123, response: 
+<!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title>403 Forbidden
+src/test/java/karateFramework/getTag/getTag.feature:14
+15:25:49.221 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getTag/getTag.feature
+15:30:43.569 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+15:30:43.970 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683318643962
+15:30:43.997 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+15:30:45.306 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://backend.cashwise.us/api/myaccount/tags/123
+1 > Host: backend.cashwise.us
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:30:46.190 [main]  DEBUG com.intuit.karate - response time in milliseconds: 877
+1 < 403
+1 < Date: Fri, 05 May 2023 20:30:46 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+
+
+15:30:46.242 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getTag/getTag.feature:14
+Then status 200
+status code was: 403, expected: 200, response time in milliseconds: 877, url: https://backend.cashwise.us/api/myaccount/tags/123, response: 
+
+src/test/java/karateFramework/getTag/getTag.feature:14
+15:30:46.964 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getTag/getTag.feature
+15:47:42.728 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+15:47:43.145 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683319663139
+15:47:43.172 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+15:47:44.525 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://backend.cashwise.us/api/myaccount/tags
+1 > jwt_token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjb2Rld2lzZXIyMDIzQGdtYWlsLmNvbSIsImV4cCI6MTY4MzkyNDIzMiwiaWF0IjoxNjgzMzE5NDMyfQ.t5h1XIaDFmdsCOPfqNpTfXeXnXoCvOdIgqNpS4h6E1_tKUOW_6wNAGF1g5r8fK5xgAlAtc9C7dra_06asqR9Dg
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 15
+1 > Host: backend.cashwise.us
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"user_id":213}
+
+15:47:45.373 [main]  DEBUG com.intuit.karate - response time in milliseconds: 840
+1 < 403
+1 < Date: Fri, 05 May 2023 20:47:45 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+
+
+15:47:45.426 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/createTag/createTag.feature:16
+Then status 200
+status code was: 403, expected: 200, response time in milliseconds: 840, url: https://backend.cashwise.us/api/myaccount/tags, response: 
+
+src/test/java/karateFramework/createTag/createTag.feature:16
+15:47:46.184 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/createTag/createTag.feature
+16:28:46.516 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:28:46.923 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683322126918
+16:28:46.949 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+16:28:48.269 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://backend.cashwise.us/api/myaccount/bankaccount
+1 > Host: backend.cashwise.us
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:28:49.138 [main]  DEBUG com.intuit.karate - response time in milliseconds: 860
+1 < 403
+1 < Date: Fri, 05 May 2023 21:28:49 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+
+
+16:28:49.192 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:14
+Then status 200
+status code was: 403, expected: 200, response time in milliseconds: 860, url: https://backend.cashwise.us/api/myaccount/bankaccount, response: 
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:14
+16:28:49.958 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:30:24.291 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:30:24.701 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683322224692
+16:30:24.726 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+16:30:26.033 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://backend.cashwise.us/api/myaccount/bankaccount
+1 > Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjb2Rld2lzZXIyMDIzQGdtYWlsLmNvbSIsImV4cCI6MTY4MzkyNDIzMiwiaWF0IjoxNjgzMzE5NDMyfQ.t5h1XIaDFmdsCOPfqNpTfXeXnXoCvOdIgqNpS4h6E1_tKUOW_6wNAGF1g5r8fK5xgAlAtc9C7dra_06asqR9Dg
+1 > Host: backend.cashwise.us
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:30:26.926 [main]  DEBUG com.intuit.karate - response time in milliseconds: 886
+1 < 200
+1 < Date: Fri, 05 May 2023 21:30:26 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+[{"id":"245","fake_id":5,"bank_account_name":"US Bank","description":"US Bank credit account","type_of_pay":"BANK","balance":5999.0,"history_balance_responses":[{"createdAt":"2023-04-14","editor":"Code Wiser","balanceBeforeChange":1500.0,"balanceAfterChange":5999.0}]},{"id":"1890","fake_id":32,"bank_account_name":"TestKarate","description":"test","type_of_pay":"BANK","balance":250.0,"history_balance_responses":[]},{"id":"1891","fake_id":33,"bank_account_name":"KarateKarate","description":"testtest","type_of_pay":"CASH","balance":1000.0,"history_balance_responses":[]},{"id":"440","fake_id":8,"bank_account_name":"Mills-Herman","description":"created 13 banks API","type_of_pay":"BANK","balance":3832.0,"history_balance_responses":[]},{"id":"447","fake_id":12,"bank_account_name":"McDermott-Roob","description":"created 13 banks API","type_of_pay":"BANK","balance":2013.0,"history_balance_responses":[]},{"id":"450","fake_id":14,"bank_account_name":"Kassulke Inc","description":"created 13 banks API","type_of_pay":"BANK","balance":2589.0,"history_balance_responses":[]},{"id":"452","fake_id":15,"bank_account_name":"Schinner Group","description":"created 13 banks API","type_of_pay":"BANK","balance":3223.0,"history_balance_responses":[]},{"id":"459","fake_id":18,"bank_account_name":"Koepp LLC","description":"created 13 banks API","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":3570.0,"history_balance_responses":[]},{"id":"449","fake_id":13,"bank_account_name":"Keeling LLC","description":"created 13 banks API","type_of_pay":"BANK","balance":3188.0,"history_balance_responses":[]},{"id":"1745","fake_id":30,"bank_account_name":"Testing here","description":"","type_of_pay":"BANK","balance":50.0,"history_balance_responses":[]},{"id":"1627","fake_id":22,"bank_account_name":"ZELLE","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1746","fake_id":31,"bank_account_name":"   243fd","description":"","type_of_pay":"CASH","balance":-2.0,"history_balance_responses":[]},{"id":"1641","fake_id":24,"bank_account_name":" ZELLE personal","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1640","fake_id":23,"bank_account_name":"ZELLE personal","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1675","fake_id":26,"bank_account_name":null,"description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1672","fake_id":25,"bank_account_name":" ZELLE business","description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1692","fake_id":27,"bank_account_name":null,"description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":null,"history_balance_responses":[]},{"id":"1705","fake_id":29,"bank_account_name":"","description":"","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1171","fake_id":19,"bank_account_name":"Zelle","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1697","fake_id":28,"bank_account_name":"ZELLE account personal","description":"","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1218","fake_id":20,"bank_account_name":"Bank of America","description":"BoA credit account","type_of_pay":"BANK","balance":4500.0,"history_balance_responses":[]}]
+
+16:30:27.698 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:33:35.880 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:33:36.292 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683322416282
+16:33:36.317 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+16:33:37.333 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+* url codewise_url
+js failed:
+>>>>
+01: codewise_url
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "codewise_url" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+16:33:38.054 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:36:41.571 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:36:41.981 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683322601974
+16:36:42.006 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+16:36:43.038 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+* url codewise_url
+js failed:
+>>>>
+01: codewise_url
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "codewise_url" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+16:36:44.007 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:40:29.476 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:40:29.887 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683322829874
+16:40:29.911 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+16:40:30.973 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+* url codewise_url
+js failed:
+>>>>
+01: codewise_url
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "codewise_url" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+16:40:31.814 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:41:37.965 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:41:38.343 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683322898335
+16:41:38.366 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+16:41:39.488 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+* url codewise_url
+js failed:
+>>>>
+01: codewise_url
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "codewise_url" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+16:41:40.313 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:44:52.821 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:44:53.228 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683323093219
+16:44:53.254 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+16:44:54.289 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+* url codewise_url
+js failed:
+>>>>
+01: codewise_url
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "codewise_url" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+16:44:55.007 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:45:12.691 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:45:13.095 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683323113087
+16:45:13.120 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+16:45:14.169 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+* url codewise_url
+js failed:
+>>>>
+01: codewise_url
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "codewise_url" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+16:45:14.942 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:47:58.249 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:47:58.657 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683323278649
+16:47:58.686 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+16:47:59.730 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+* url codewise_url
+js failed:
+>>>>
+01: codewise_url
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "codewise_url" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+16:48:00.588 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:53:47.416 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:53:47.837 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683323627830
+16:53:48.952 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+* print 'codewise_url: ', codewise_url
+js failed:
+>>>>
+01: karate.log('[print]','codewise_url: ', codewise_url)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "codewise_url" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+16:53:49.872 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:54:22.592 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:54:23.015 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683323663008
+16:54:23.042 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+16:54:24.059 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+* url codewise_url
+js failed:
+>>>>
+01: codewise_url
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "codewise_url" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+16:54:24.989 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:55:39.948 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:55:40.359 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683323740348
+16:55:40.385 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+16:55:41.410 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+* url codewise_url
+js failed:
+>>>>
+01: codewise_url
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "codewise_url" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+16:55:42.276 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:56:51.107 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:56:51.535 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683323811520
+16:56:51.564 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+16:56:52.591 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+* path get_all_bankAccounts_uri
+js failed:
+>>>>
+01: get_all_bankAccounts_uri
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get_all_bankAccounts_uri" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+16:56:53.494 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:57:29.907 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:57:30.314 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683323850306
+16:57:30.339 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+16:57:31.366 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+* path get_all_bankAccounts_uri
+js failed:
+>>>>
+01: get_all_bankAccounts_uri
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get_all_bankAccounts_uri" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+16:57:32.156 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+16:58:07.440 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:58:07.840 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683323887831
+16:58:07.866 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+16:58:08.852 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+* path get_all_bankAccounts_uri
+js failed:
+>>>>
+01: get_all_bankAccounts_uri
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get_all_bankAccounts_uri" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+16:58:09.653 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+17:10:54.060 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+17:10:54.455 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683324654448
+17:10:54.479 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+17:10:55.516 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+* path get_all_bankAccounts_uri
+js failed:
+>>>>
+01: get_all_bankAccounts_uri
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get_all_bankAccounts_uri" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+17:10:56.412 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+17:14:34.061 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+17:14:34.487 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683324874481
+17:14:34.513 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+17:14:35.584 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+* path get_all_bankAccounts_uri
+js failed:
+>>>>
+01: get_all_bankAccounts_uri
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get_all_bankAccounts_uri" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+17:14:36.343 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+17:24:03.860 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+17:24:04.285 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683325444277
+17:24:04.312 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+17:24:05.347 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+* path get_all_bankAccounts_uri
+js failed:
+>>>>
+01: get_all_bankAccounts_uri
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get_all_bankAccounts_uri" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+17:24:06.208 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+17:24:22.950 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+17:24:23.368 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683325463360
+17:24:23.391 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+17:24:24.420 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+* path get_all_bankAccounts_uri
+js failed:
+>>>>
+01: get_all_bankAccounts_uri
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get_all_bankAccounts_uri" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+17:24:25.340 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+17:24:46.055 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+17:24:46.459 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683325486453
+17:24:46.483 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+17:24:47.535 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+* path get_all_bankAccounts_uri
+js failed:
+>>>>
+01: get_all_bankAccounts_uri
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get_all_bankAccounts_uri" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+17:24:48.372 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+17:40:50.806 [main]  INFO  com.intuit.karate - Karate version: 1.1.0
+17:40:51.105 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683326451104
+17:40:51.131 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+17:40:52.004 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+* path get_all_bankAccounts_uri
+js failed:
+>>>>
+01: get_all_bankAccounts_uri
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get_all_bankAccounts_uri" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+17:40:52.631 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+17:45:09.617 [main]  INFO  com.intuit.karate - Karate version: 1.1.0
+17:45:09.905 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683326709905
+17:45:09.931 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+17:45:10.793 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+* path get_all_bankAccounts_uri
+js failed:
+>>>>
+01: get_all_bankAccounts_uri
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get_all_bankAccounts_uri" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:6
+17:45:11.432 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+17:45:19.656 [main]  INFO  com.intuit.karate - Karate version: 1.1.0
+17:45:19.939 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683326719939
+17:45:19.964 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+17:45:21.141 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://backend.cashwise.us/api/myaccount/bankaccount
+1 > Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjb2Rld2lzZXIyMDIzQGdtYWlsLmNvbSIsImV4cCI6MTY4MzkyNDIzMiwiaWF0IjoxNjgzMzE5NDMyfQ.t5h1XIaDFmdsCOPfqNpTfXeXnXoCvOdIgqNpS4h6E1_tKUOW_6wNAGF1g5r8fK5xgAlAtc9C7dra_06asqR9Dg
+1 > Host: backend.cashwise.us
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:45:21.994 [main]  DEBUG com.intuit.karate - response time in milliseconds: 848
+1 < 200
+1 < Date: Fri, 05 May 2023 22:45:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+[{"id":"245","fake_id":5,"bank_account_name":"US Bank","description":"US Bank credit account","type_of_pay":"BANK","balance":5999.0,"history_balance_responses":[{"createdAt":"2023-04-14","editor":"Code Wiser","balanceBeforeChange":1500.0,"balanceAfterChange":5999.0}]},{"id":"1890","fake_id":32,"bank_account_name":"TestKarate","description":"test","type_of_pay":"BANK","balance":250.0,"history_balance_responses":[]},{"id":"1891","fake_id":33,"bank_account_name":"KarateKarate","description":"testtest","type_of_pay":"CASH","balance":1000.0,"history_balance_responses":[]},{"id":"440","fake_id":8,"bank_account_name":"Mills-Herman","description":"created 13 banks API","type_of_pay":"BANK","balance":3832.0,"history_balance_responses":[]},{"id":"447","fake_id":12,"bank_account_name":"McDermott-Roob","description":"created 13 banks API","type_of_pay":"BANK","balance":2013.0,"history_balance_responses":[]},{"id":"450","fake_id":14,"bank_account_name":"Kassulke Inc","description":"created 13 banks API","type_of_pay":"BANK","balance":2589.0,"history_balance_responses":[]},{"id":"452","fake_id":15,"bank_account_name":"Schinner Group","description":"created 13 banks API","type_of_pay":"BANK","balance":3223.0,"history_balance_responses":[]},{"id":"459","fake_id":18,"bank_account_name":"Koepp LLC","description":"created 13 banks API","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":3570.0,"history_balance_responses":[]},{"id":"449","fake_id":13,"bank_account_name":"Keeling LLC","description":"created 13 banks API","type_of_pay":"BANK","balance":3188.0,"history_balance_responses":[]},{"id":"1745","fake_id":30,"bank_account_name":"Testing here","description":"","type_of_pay":"BANK","balance":50.0,"history_balance_responses":[]},{"id":"1627","fake_id":22,"bank_account_name":"ZELLE","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1746","fake_id":31,"bank_account_name":"   243fd","description":"","type_of_pay":"CASH","balance":-2.0,"history_balance_responses":[]},{"id":"1641","fake_id":24,"bank_account_name":" ZELLE personal","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1640","fake_id":23,"bank_account_name":"ZELLE personal","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1675","fake_id":26,"bank_account_name":null,"description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1672","fake_id":25,"bank_account_name":" ZELLE business","description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1692","fake_id":27,"bank_account_name":null,"description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":null,"history_balance_responses":[]},{"id":"1705","fake_id":29,"bank_account_name":"","description":"","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1171","fake_id":19,"bank_account_name":"Zelle","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1697","fake_id":28,"bank_account_name":"ZELLE account personal","description":"","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1218","fake_id":20,"bank_account_name":"Bank of America","description":"BoA credit account","type_of_pay":"BANK","balance":4500.0,"history_balance_responses":[]}]
+17:45:22.725 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+17:49:02.544 [main]  INFO  com.intuit.karate - Karate version: 1.1.0
+17:49:02.825 [main]  DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:49:02.826 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683326942826
+17:49:02.851 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+17:49:04.004 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://backend.cashwise.us/api/myaccount/bankaccount
+1 > Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjb2Rld2lzZXIyMDIzQGdtYWlsLmNvbSIsImV4cCI6MTY4MzkyNDIzMiwiaWF0IjoxNjgzMzE5NDMyfQ.t5h1XIaDFmdsCOPfqNpTfXeXnXoCvOdIgqNpS4h6E1_tKUOW_6wNAGF1g5r8fK5xgAlAtc9C7dra_06asqR9Dg
+1 > Host: backend.cashwise.us
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:49:04.859 [main]  DEBUG com.intuit.karate - response time in milliseconds: 851
+1 < 200
+1 < Date: Fri, 05 May 2023 22:49:04 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+[{"id":"245","fake_id":5,"bank_account_name":"US Bank","description":"US Bank credit account","type_of_pay":"BANK","balance":5999.0,"history_balance_responses":[{"createdAt":"2023-04-14","editor":"Code Wiser","balanceBeforeChange":1500.0,"balanceAfterChange":5999.0}]},{"id":"1890","fake_id":32,"bank_account_name":"TestKarate","description":"test","type_of_pay":"BANK","balance":250.0,"history_balance_responses":[]},{"id":"1891","fake_id":33,"bank_account_name":"KarateKarate","description":"testtest","type_of_pay":"CASH","balance":1000.0,"history_balance_responses":[]},{"id":"440","fake_id":8,"bank_account_name":"Mills-Herman","description":"created 13 banks API","type_of_pay":"BANK","balance":3832.0,"history_balance_responses":[]},{"id":"447","fake_id":12,"bank_account_name":"McDermott-Roob","description":"created 13 banks API","type_of_pay":"BANK","balance":2013.0,"history_balance_responses":[]},{"id":"450","fake_id":14,"bank_account_name":"Kassulke Inc","description":"created 13 banks API","type_of_pay":"BANK","balance":2589.0,"history_balance_responses":[]},{"id":"452","fake_id":15,"bank_account_name":"Schinner Group","description":"created 13 banks API","type_of_pay":"BANK","balance":3223.0,"history_balance_responses":[]},{"id":"459","fake_id":18,"bank_account_name":"Koepp LLC","description":"created 13 banks API","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":3570.0,"history_balance_responses":[]},{"id":"449","fake_id":13,"bank_account_name":"Keeling LLC","description":"created 13 banks API","type_of_pay":"BANK","balance":3188.0,"history_balance_responses":[]},{"id":"1745","fake_id":30,"bank_account_name":"Testing here","description":"","type_of_pay":"BANK","balance":50.0,"history_balance_responses":[]},{"id":"1627","fake_id":22,"bank_account_name":"ZELLE","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1746","fake_id":31,"bank_account_name":"   243fd","description":"","type_of_pay":"CASH","balance":-2.0,"history_balance_responses":[]},{"id":"1641","fake_id":24,"bank_account_name":" ZELLE personal","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1640","fake_id":23,"bank_account_name":"ZELLE personal","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1675","fake_id":26,"bank_account_name":null,"description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1672","fake_id":25,"bank_account_name":" ZELLE business","description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1692","fake_id":27,"bank_account_name":null,"description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":null,"history_balance_responses":[]},{"id":"1705","fake_id":29,"bank_account_name":"","description":"","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1171","fake_id":19,"bank_account_name":"Zelle","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1697","fake_id":28,"bank_account_name":"ZELLE account personal","description":"","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1218","fake_id":20,"bank_account_name":"Bank of America","description":"BoA credit account","type_of_pay":"BANK","balance":4500.0,"history_balance_responses":[]}]
+17:49:05.645 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+17:49:23.782 [main]  INFO  com.intuit.karate - Karate version: 1.1.0
+17:49:24.070 [main]  DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:49:24.071 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683326964071
+17:49:24.095 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+17:49:24.987 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+* url codewise_url
+js failed:
+>>>>
+01: codewise_url
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "codewise_url" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/karateFramework/getBankAccount/getBankAccount.feature:4
+17:49:25.609 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+17:53:08.857 [main]  INFO  com.intuit.karate - Karate version: 1.1.0
+17:53:09.147 [main]  DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:53:09.148 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683327189148
+17:53:09.173 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+17:53:10.089 [main]  INFO  com.intuit.karate - karate.env system property was: null 
+17:53:10.439 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://backend.cashwise.us/api/myaccount/bankaccount
+1 > Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjb2Rld2lzZXIyMDIzQGdtYWlsLmNvbSIsImV4cCI6MTY4MzkyNDIzMiwiaWF0IjoxNjgzMzE5NDMyfQ.t5h1XIaDFmdsCOPfqNpTfXeXnXoCvOdIgqNpS4h6E1_tKUOW_6wNAGF1g5r8fK5xgAlAtc9C7dra_06asqR9Dg
+1 > Host: backend.cashwise.us
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:53:11.255 [main]  DEBUG com.intuit.karate - response time in milliseconds: 811
+1 < 200
+1 < Date: Fri, 05 May 2023 22:53:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+[{"id":"245","fake_id":5,"bank_account_name":"US Bank","description":"US Bank credit account","type_of_pay":"BANK","balance":5999.0,"history_balance_responses":[{"createdAt":"2023-04-14","editor":"Code Wiser","balanceBeforeChange":1500.0,"balanceAfterChange":5999.0}]},{"id":"1890","fake_id":32,"bank_account_name":"TestKarate","description":"test","type_of_pay":"BANK","balance":250.0,"history_balance_responses":[]},{"id":"1891","fake_id":33,"bank_account_name":"KarateKarate","description":"testtest","type_of_pay":"CASH","balance":1000.0,"history_balance_responses":[]},{"id":"440","fake_id":8,"bank_account_name":"Mills-Herman","description":"created 13 banks API","type_of_pay":"BANK","balance":3832.0,"history_balance_responses":[]},{"id":"447","fake_id":12,"bank_account_name":"McDermott-Roob","description":"created 13 banks API","type_of_pay":"BANK","balance":2013.0,"history_balance_responses":[]},{"id":"450","fake_id":14,"bank_account_name":"Kassulke Inc","description":"created 13 banks API","type_of_pay":"BANK","balance":2589.0,"history_balance_responses":[]},{"id":"452","fake_id":15,"bank_account_name":"Schinner Group","description":"created 13 banks API","type_of_pay":"BANK","balance":3223.0,"history_balance_responses":[]},{"id":"459","fake_id":18,"bank_account_name":"Koepp LLC","description":"created 13 banks API","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":3570.0,"history_balance_responses":[]},{"id":"449","fake_id":13,"bank_account_name":"Keeling LLC","description":"created 13 banks API","type_of_pay":"BANK","balance":3188.0,"history_balance_responses":[]},{"id":"1745","fake_id":30,"bank_account_name":"Testing here","description":"","type_of_pay":"BANK","balance":50.0,"history_balance_responses":[]},{"id":"1627","fake_id":22,"bank_account_name":"ZELLE","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1746","fake_id":31,"bank_account_name":"   243fd","description":"","type_of_pay":"CASH","balance":-2.0,"history_balance_responses":[]},{"id":"1641","fake_id":24,"bank_account_name":" ZELLE personal","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1640","fake_id":23,"bank_account_name":"ZELLE personal","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1675","fake_id":26,"bank_account_name":null,"description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1672","fake_id":25,"bank_account_name":" ZELLE business","description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1692","fake_id":27,"bank_account_name":null,"description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":null,"history_balance_responses":[]},{"id":"1705","fake_id":29,"bank_account_name":"","description":"","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1171","fake_id":19,"bank_account_name":"Zelle","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1697","fake_id":28,"bank_account_name":"ZELLE account personal","description":"","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1218","fake_id":20,"bank_account_name":"Bank of America","description":"BoA credit account","type_of_pay":"BANK","balance":4500.0,"history_balance_responses":[]}]
+17:53:12.047 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+17:53:53.437 [main]  INFO  com.intuit.karate - Karate version: 1.1.0
+17:53:53.721 [main]  DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:53:53.723 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683327233723
+17:53:53.748 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9
+17:53:54.662 [main]  INFO  com.intuit.karate - karate.env system property was: null 
+17:53:55.012 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://backend.cashwise.us/api/myaccount/bankaccount
+1 > Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjb2Rld2lzZXIyMDIzQGdtYWlsLmNvbSIsImV4cCI6MTY4MzkyNDIzMiwiaWF0IjoxNjgzMzE5NDMyfQ.t5h1XIaDFmdsCOPfqNpTfXeXnXoCvOdIgqNpS4h6E1_tKUOW_6wNAGF1g5r8fK5xgAlAtc9C7dra_06asqR9Dg
+1 > Host: backend.cashwise.us
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:53:55.819 [main]  DEBUG com.intuit.karate - response time in milliseconds: 800
+1 < 200
+1 < Date: Fri, 05 May 2023 22:53:55 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+[{"id":"245","fake_id":5,"bank_account_name":"US Bank","description":"US Bank credit account","type_of_pay":"BANK","balance":5999.0,"history_balance_responses":[{"createdAt":"2023-04-14","editor":"Code Wiser","balanceBeforeChange":1500.0,"balanceAfterChange":5999.0}]},{"id":"1890","fake_id":32,"bank_account_name":"TestKarate","description":"test","type_of_pay":"BANK","balance":250.0,"history_balance_responses":[]},{"id":"1891","fake_id":33,"bank_account_name":"KarateKarate","description":"testtest","type_of_pay":"CASH","balance":1000.0,"history_balance_responses":[]},{"id":"440","fake_id":8,"bank_account_name":"Mills-Herman","description":"created 13 banks API","type_of_pay":"BANK","balance":3832.0,"history_balance_responses":[]},{"id":"447","fake_id":12,"bank_account_name":"McDermott-Roob","description":"created 13 banks API","type_of_pay":"BANK","balance":2013.0,"history_balance_responses":[]},{"id":"450","fake_id":14,"bank_account_name":"Kassulke Inc","description":"created 13 banks API","type_of_pay":"BANK","balance":2589.0,"history_balance_responses":[]},{"id":"452","fake_id":15,"bank_account_name":"Schinner Group","description":"created 13 banks API","type_of_pay":"BANK","balance":3223.0,"history_balance_responses":[]},{"id":"459","fake_id":18,"bank_account_name":"Koepp LLC","description":"created 13 banks API","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":3570.0,"history_balance_responses":[]},{"id":"449","fake_id":13,"bank_account_name":"Keeling LLC","description":"created 13 banks API","type_of_pay":"BANK","balance":3188.0,"history_balance_responses":[]},{"id":"1745","fake_id":30,"bank_account_name":"Testing here","description":"","type_of_pay":"BANK","balance":50.0,"history_balance_responses":[]},{"id":"1627","fake_id":22,"bank_account_name":"ZELLE","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1746","fake_id":31,"bank_account_name":"   243fd","description":"","type_of_pay":"CASH","balance":-2.0,"history_balance_responses":[]},{"id":"1641","fake_id":24,"bank_account_name":" ZELLE personal","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1640","fake_id":23,"bank_account_name":"ZELLE personal","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1675","fake_id":26,"bank_account_name":null,"description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1672","fake_id":25,"bank_account_name":" ZELLE business","description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1692","fake_id":27,"bank_account_name":null,"description":null,"type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":null,"history_balance_responses":[]},{"id":"1705","fake_id":29,"bank_account_name":"","description":"","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1171","fake_id":19,"bank_account_name":"Zelle","description":"Accepting Zelle payments","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1697","fake_id":28,"bank_account_name":"ZELLE account personal","description":"","type_of_pay":"ELECTRONIC_MONEY_TRANSFER","balance":500.5,"history_balance_responses":[]},{"id":"1218","fake_id":20,"bank_account_name":"Bank of America","description":"BoA credit account","type_of_pay":"BANK","balance":4500.0,"history_balance_responses":[]}]
+17:53:56.620 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/getBankAccount/getBankAccount.feature
+18:01:36.771 [main]  INFO  com.intuit.karate - Karate version: 1.1.0
+18:01:37.061 [main]  DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:01:37.063 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683327697063
+18:01:37.089 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+18:01:37.999 [main]  INFO  com.intuit.karate - karate.env system property was: null 
+18:01:38.356 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://backend.cashwise.us/api/myaccount/bankaccount
+1 > Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjb2Rld2lzZXIyMDIzQGdtYWlsLmNvbSIsImV4cCI6MTY4MzkyNDIzMiwiaWF0IjoxNjgzMzE5NDMyfQ.t5h1XIaDFmdsCOPfqNpTfXeXnXoCvOdIgqNpS4h6E1_tKUOW_6wNAGF1g5r8fK5xgAlAtc9C7dra_06asqR9Dg
+1 > Host: backend.cashwise.us
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:01:39.179 [main]  DEBUG com.intuit.karate - response time in milliseconds: 817
+1 < 500
+1 < Date: Fri, 05 May 2023 23:01:39 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+{"message":"Internal server error","details":["Required request body is missing: public com.peaksoft.accounting.api.payload.BankAccountResponse com.peaksoft.accounting.api.controller.BankAccountController.create(com.peaksoft.accounting.db.entity.UserEntity,com.peaksoft.accounting.api.payload.BankAccountRequest,com.peaksoft.accounting.db.entity.BankAccountEntity,java.lang.String)"]}
+18:01:39.210 [main]  ERROR com.intuit.karate - src/test/java/karateFramework/createBankAccount/createBankAccount.feature:13
+Then status 200
+status code was: 500, expected: 200, response time in milliseconds: 817, url: https://backend.cashwise.us/api/myaccount/bankaccount, response: 
+{"message":"Internal server error","details":["Required request body is missing: public com.peaksoft.accounting.api.payload.BankAccountResponse com.peaksoft.accounting.api.controller.BankAccountController.create(com.peaksoft.accounting.db.entity.UserEntity,com.peaksoft.accounting.api.payload.BankAccountRequest,com.peaksoft.accounting.db.entity.BankAccountEntity,java.lang.String)"]}
+src/test/java/karateFramework/createBankAccount/createBankAccount.feature:13
+18:01:39.931 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/createBankAccount/createBankAccount.feature
+18:03:36.976 [main]  INFO  com.intuit.karate - Karate version: 1.1.0
+18:03:37.276 [main]  DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:03:37.278 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1683327817277
+18:03:37.303 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+18:03:38.194 [main]  INFO  com.intuit.karate - karate.env system property was: null 
+18:03:38.612 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://backend.cashwise.us/api/myaccount/bankaccount
+1 > Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjb2Rld2lzZXIyMDIzQGdtYWlsLmNvbSIsImV4cCI6MTY4MzkyNDIzMiwiaWF0IjoxNjgzMzE5NDMyfQ.t5h1XIaDFmdsCOPfqNpTfXeXnXoCvOdIgqNpS4h6E1_tKUOW_6wNAGF1g5r8fK5xgAlAtc9C7dra_06asqR9Dg
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 104
+1 > Host: backend.cashwise.us
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"type_of_pay":"CASH","bank_account_name":"CheckKarate","description":"TestingKarate","balance":1000000}
+
+18:03:39.599 [main]  DEBUG com.intuit.karate - response time in milliseconds: 981
+1 < 200
+1 < Date: Fri, 05 May 2023 23:03:39 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+{"id":"1893","fake_id":35,"bank_account_name":"CheckKarate","description":"TestingKarate","type_of_pay":"CASH","balance":1000000.0,"history_balance_responses":[]}
+18:03:40.292 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/karateFramework/createBankAccount/createBankAccount.feature
